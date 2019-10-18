@@ -6,9 +6,18 @@
 
 **Last updated:** 5th March 2019
 
-**Last tested version:** 1.1.1.348.g9064793a
+**Last tested version:** 1.1.4.197.g92d52c4f
 
-This mod is designed to work with any version update. Please create an issue if it breaks.
+### Important Notice
+
+If you are using Spotify 1.1.5.xxx or newer, please use run the automatic downgrade script [here](https://github.com/master131/BlockTheSpot/raw/master/downgrade.bat) which will downgrade to 1.1.4.197.g92d52c4f and also disable auto-update. Thanks @CHEF-KOCH.
+
+#### How do I re-enable automatic updates?
+
+Run Command Prompt as administrator and enter the following command:
+```
+icacls "%localappdata%\Spotify\Update" /reset /T
+```
 
 ### Features:
 * Windows only
